@@ -7,7 +7,8 @@ Fine-grained visual categorization (FGVC) presents a distinct challenge in compu
 # Research Question: 
 To what extent does a hybrid Inception-ResNet-v2 architecture, utilizing multi-scale feature extraction and residual learning, outperform standard residual networks and attention-based Vision Transformers in the fine-grained classification of stylized, multi-modal artistic datasets?
 
-# Current literature highlights a progression from limited-scope CNNs to advanced hybrid architectures:
+# Current literature: 
+- Highlights a progression from limited-scope CNNs to advanced hybrid architectures
 1. Scope vs. Scalability: Early work by Rawat (2021) achieved 96% accuracy but was restricted to 151 species. Our study expands this to 721 species to test scalability.
 2. Multimodal Challenges: Zahroof (2019) emphasized that model robustness often fails when transitioning between stylized sprites and 3D renderings, a gap this project seeks to bridge.
 3. Data Scarcity: Li et al. (2019) introduced Relation Networks to address "long-tail" distributions where rare species have limited training data.
@@ -31,3 +32,9 @@ To ensure rigorous research as required by the DS 6050 curriculum, we conduct th
 - Source: [Pokemon Image Dataset](https://www.kaggle.com/datasets/vishalsubbiah/pokemon-images-and-types) (Publicly available)
 - Composition: 10,073 images across 721 species.
 - Protocol: 80/20 train-test split with episodic validation. All training is conducted on UVA Rivanna HPC resources.
+
+# References
+- Saxena, R.R., et al. (2025). Pokémondium: A Machine Learning Approach to Detecting Images of Pokémon.
+- Li, X., et al. (2019). One-shot Pokemon Classification using Relation Networks.
+- Rawat, A. (2021). Pokémon Classification Using CNN.
+- Zahroof, T. (2019). What's That Pokemon? Stanford University CS230.
