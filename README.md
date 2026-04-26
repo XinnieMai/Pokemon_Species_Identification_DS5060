@@ -17,6 +17,8 @@ To what extent does a hybrid Inception-ResNet-v2 architecture, utilizing multi-s
 ## Technical Approach:
 The core architecture is an Inception-ResNet-v2 leveraging transfer learning. Inception modules extract multi-scale features (local textures and global shapes) in parallel, while residual connections ensure stable gradient flow during deep training.
 
+_Note that our final_notebooks are designed to be run in Google Colab, and we utilized an A100 GPU in this case.  The main difference between files is simply the dataset used._
+
 **Training Configuration**
 1. Loss Function: Categorical Cross-Entropy.
 2. Optimizer: Adam (Adaptive Moment Estimation) for faster convergence.
